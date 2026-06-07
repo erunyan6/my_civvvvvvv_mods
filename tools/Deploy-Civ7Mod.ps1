@@ -36,5 +36,6 @@ if ($Clean -and (Test-Path -LiteralPath $target)) {
 
 New-Item -ItemType Directory -Force -Path $target | Out-Null
 Copy-Item -LiteralPath (Join-Path $source "*") -Destination $target -Recurse -Force
+Set-Content -LiteralPath (Join-Path $target ".codex-managed") -Value "Managed by Codex Civ VII workspace." -Encoding ascii
 
 Write-Host "Deployed $ModName to $target"

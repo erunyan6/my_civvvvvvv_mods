@@ -27,6 +27,25 @@ The deploy script uses this default target:
 %LOCALAPPDATA%\Firaxis Games\Sid Meier's Civilization VII\Mods
 ```
 
+Create a new mod from the template:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File tools\New-Civ7Mod.ps1 -Name better-town-growth -DisplayName "Better Town Growth"
+```
+
+Check game/workspace state:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File tools\Check-Civ7GameState.ps1
+```
+
+See also:
+
+- `docs/WORKFLOW.md`
+- `docs/MOD_ID_RULES.md`
+- `docs/QC.md`
+- `docs/RELEASES.md`
+
 Steam install detected:
 
 ```text

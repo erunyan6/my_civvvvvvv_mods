@@ -34,3 +34,5 @@ The deploy helper creates the user mods folder if needed.
 - Prefer adding new isolated mod files over overwriting base game files.
 - Keep every mod self-contained with a `.modinfo` file at its root.
 - Use `mods/_template` as the starting point for each new mod.
+- Use `tools\New-Civ7Mod.ps1` instead of copying the template by hand.
+- Deployed mods created by this workspace contain a `.codex-managed` marker so cleanup scripts avoid unrelated mods.

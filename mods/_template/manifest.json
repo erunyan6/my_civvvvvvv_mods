@@ -1,0 +1,9 @@
+{
+  "id": "template-local-mod",
+  "name": "Template Local Mod",
+  "description": "Starter template for a local Civilization VII mod.",
+  "author": "runya",
+  "status": "template",
+  "lastValidatedGameBuild": null,
+  "managedBy": "codex-civ7-workspace"
+}

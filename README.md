@@ -15,6 +15,18 @@ Run the workspace checker before treating a mod as ready:
 powershell -ExecutionPolicy Bypass -File tools\Test-Civ7Workspace.ps1
 ```
 
+Deploy a local mod to Civilization VII's user mods folder:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File tools\Deploy-Civ7Mod.ps1 -ModName your-mod-name -Clean
+```
+
+The deploy script uses this default target:
+
+```text
+%LOCALAPPDATA%\Firaxis Games\Sid Meier's Civilization VII\Mods
+```
+
 Steam install detected:
 
 ```text

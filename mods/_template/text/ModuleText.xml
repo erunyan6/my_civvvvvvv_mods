@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <LocalizedText>
+        <Row Tag="LOC_TEMPLATE_LOCAL_MOD_NAME" Language="en_US">
+            <Text>Template Local Mod</Text>
+        </Row>
+        <Row Tag="LOC_TEMPLATE_LOCAL_MOD_DESCRIPTION" Language="en_US">
+            <Text>Starter template for a local Civilization VII mod.</Text>
+        </Row>
+    </LocalizedText>
+</Database>

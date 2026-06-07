@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="template-local-mod" version="1"
+    xmlns="ModInfo">
+    <Properties>
+        <Name>LOC_TEMPLATE_LOCAL_MOD_NAME</Name>
+        <Description>LOC_TEMPLATE_LOCAL_MOD_DESCRIPTION</Description>
+        <Authors>runya</Authors>
+        <EnabledByDefault>1</EnabledByDefault>
+    </Properties>
+    <Dependencies>
+        <Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+    </Dependencies>
+    <ActionCriteria>
+        <Criteria id="always">
+            <AlwaysMet></AlwaysMet>
+        </Criteria>
+    </ActionCriteria>
+    <ActionGroups>
+        <ActionGroup id="template-local-mod-main" scope="game" criteria="always">
+            <Actions>
+                <UpdateDatabase>
+                    <Item>data/template.xml</Item>
+                </UpdateDatabase>
+                <UpdateText>
+                    <Item>text/ModuleText.xml</Item>
+                </UpdateText>
+            </Actions>
+        </ActionGroup>
+    </ActionGroups>
+    <LocalizedText>
+        <File>text/ModuleText.xml</File>
+    </LocalizedText>
+</Mod>

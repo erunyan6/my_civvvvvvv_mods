@@ -1,0 +1,23 @@
+# Scratch/work files
+work/
+outputs/
+
+# Local caches
+*.log
+*.tmp
+*.bak
+*.cache
+
+# Node/TS build artifacts if UI modding happens later
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Do not commit copied base game assets
+# Keep the junction itself local
+Civ7BaseAssets/
